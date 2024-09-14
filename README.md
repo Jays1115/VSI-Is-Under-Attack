@@ -3,7 +3,7 @@
 
 <b>[Tech Portfolio Home](https://github.com/Jays1115/Jalen-Smith.git)</b>
 
-# VSI's Custom Splunk Environment
+# VSI Is Under Attack
 
 Scenerio: As a SOC Analyst at Virtual Space Industries (VSI), a company specializing in virtual-reality programs for businesses, I was tasked with investigating potential cyber threats. VSI received intelligence indicating that a competitor, JobeCorp, may be planning to launch cyberattacks to disrupt VSI’s business operations.
 <br>
