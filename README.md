@@ -187,6 +187,15 @@ There was a noticeable spike in GET requests two hours prior to the surge in POS
 <br/>
 </p>
 
+<h2>Attack Analysis Summary</h2>
+On March 25, 2020, Virtual Space Industries (VSI) experienced a significant cyberattack that was initial noticed by a substantial spike in HTTP POST requests at 8:05 p.m. As illustrated in the line graphs, the number of POST requests, typically used to send data to a web server, surged dramatically to 1,296 at the peak. This abnormal increase suggested an attempt to exploit vulnerabilities within VSI's web application, potentially through uploading malicious files, injecting code, or launching a denial-of-service (DoS) attack. Concurrently, there was a noticeable decline in referral traffic and a significant rise in 404 error responses, indicating that the attacker was probing the system for weaknesses and attempting to access specific resources without success. 
+<br>
+<br>
+Further analysis revealed that two hours prior to the POST request surge, there was an increase in HTTP GET requests starting at 6:05 p.m. This pattern indicated a coordinated attack strategy, where the initial GET requests were likely used for reconnaissance purposes—gathering information and identifying vulnerabilities within the system. The subsequent flood of POST requests represented the exploitation phase, where the attacker attempted to leverage the identified weaknesses to compromise VSI’s infrastructure. Additionally, the line graphs highlighted a spike in international activity from, at the tiime, an unknown source around the same timeframe.
+<br>
+<br>
+In response to the attack, an ad hoc report was created to visualize the duration and geographical origins of the surge in international activity. This report provided critical insights, confirming that the attack was concentrated within a two-hour window and originated from Ukraine. The precise timing and origin of the traffic suggested a well-planned and potentially state-sponsored cyber assault aimed at disrupting VSI’s operations. The coordinated nature of the GET and POST requests, combined with the international source, underscored the need for enhanced security measures and continuous monitoring to protect against future threats. This incident emphasized the importance of robust network security protocols, proactive threat detection, and swift incident response to safeguard VSI’s critical systems and maintain operational integrity.
+
 <!--
  ```diff
 - text in red
